@@ -54,11 +54,11 @@ span{
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: clamp(10px,14px,16px);
   line-height: 16px;
   text-transform: uppercase;
   color: #FFFFFF;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 }
 
 .btn-solid{
@@ -76,6 +76,7 @@ span{
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: var(--color-white);
+  cursor: pointer;
 }
 
 
@@ -94,6 +95,7 @@ span{
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #F70058;
+  cursor: pointer;
 }
 
 

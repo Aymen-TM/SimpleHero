@@ -5,6 +5,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 12.25rem;
+    background-position: top;
+    height: 100vh;
 }
 
 .hero__primary-heading{
@@ -28,9 +30,21 @@
 
 @media screen and (max-width:900px) {
     .hero{
-        padding:7rem 1rem 0 1rem
+        padding:2rem 1rem 0 1rem
     }
     .hero__btn_container{
         flex-direction: column;
+        justify-content: start;
+        align-items: start;
     }
+
+}
+
+@media screen and (max-width:500px) {
+
+    .hero__btn_container{
+        flex-direction: column;
+    }
+   
+
 }

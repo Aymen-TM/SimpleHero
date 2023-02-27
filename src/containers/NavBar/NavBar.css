@@ -47,9 +47,11 @@
 
 .weather__info-contianer{
     display: flex;
+    width: 100%;
     flex-direction: column;
     background-color: var(--color-primary);
     padding: 10px;
+    gap: 10px;
 }
 .current,.recent{
     flex:1;
@@ -68,12 +70,20 @@
         
     }
     .weather{
-        display: none;
+        align-self: flex-start;
+        width: 100%;
     }
+
     .navbar_list{
        width: 100%;
        align-items: center;
        justify-content: center;
        margin: 0;
     }
+}
+
+@media screen and (max-width:500px) {
+.navbar{
+    position: static;
+}
 }

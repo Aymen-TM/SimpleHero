@@ -24,6 +24,7 @@ const NavBar = () => {
                 <div className='current'>
                     <p className='p__roboto'>Current weather <span >-6°C</span></p>
                 </div>
+                
                 <div className='recent'>
                    <p className='p__roboto'> Recent snowfall <span >35cm</span> </p>
                 </div>
