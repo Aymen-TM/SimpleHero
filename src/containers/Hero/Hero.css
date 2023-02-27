@@ -1,0 +1,36 @@
+.hero{
+    display: flex;
+    align-items: center;
+    background-image: url('../../assets//herobg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 12.25rem;
+}
+
+.hero__primary-heading{
+    max-width: 538px;
+    font-family: var(--font-base);
+    font-style: normal;
+    font-weight: 900;
+    font-size: clamp(28px, 48px, 50px);
+    line-height: 102.8%;
+    color: var(--color-primary);
+}
+.hero__info-container p{
+    max-width: 615px;
+    margin-top: 1rem;
+}
+.hero__btn_container{
+    display: flex;
+    margin-top: 3.25rem;
+    gap: 1.2rem;
+}
+
+@media screen and (max-width:900px) {
+    .hero{
+        padding:7rem 1rem 0 1rem
+    }
+    .hero__btn_container{
+        flex-direction: column;
+    }
+}
